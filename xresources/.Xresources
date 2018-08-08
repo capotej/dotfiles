@@ -1,0 +1,44 @@
+URxvt*scrollBar: false
+URxvt*saveLines:  0
+
+urxvt*foreground: white
+urxvt*background: black
+
+! Tango color scheme
+*color0:  #2E3436
+*color1:  #EF2929
+*color2:  #4E9A06
+*color3:  #C4A000
+*color4:  #3465A4
+*color5:  #75507B
+*color6:  #ce5c00
+*color7:  #babdb9
+*color8:  #555753
+*color9:  #EF2929
+*color10: #8AE234
+*color11: #FCE94F
+*color12: #729FCF
+*color13: #AD7FA8
+*color14: #fcaf3e
+*color15: #EEEEEC
+
+
+! Font Rendering
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+
+! Font
+
+#define termfont   	xft:DejaVu Sans Mono:size=14
+URxvt.font:           termfont
+URxvt.boldFont:       termfont
+URxvt.italicFont:     termfont
+URxvt.boldItalicFont: termfont
+URxvt.letterSpace: -1
+
+URxvt.geometry: 150x80
