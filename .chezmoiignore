@@ -1,4 +1,5 @@
 README.md
 
 .my-custom-zsh/themes/powerlevel10k/**/*.zwc
+.my-custom-zsh/ignored.zsh
 .oh-my-zsh/cache
