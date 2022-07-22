@@ -6,6 +6,9 @@ alias bc='bc -l'
 alias xmlpp='xmllint --format -'
 alias jsonpp='python -m json.tool'
 alias cm='chezmoi'
+alias aliasedit='chezmoi edit '
+alias vim='nvim'
+alias prweb='gh pr view --web'
 
 
 function bdd() {
