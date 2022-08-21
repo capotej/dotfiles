@@ -10,6 +10,7 @@ alias aliasedit='chezmoi edit '
 alias vim='nvim'
 alias prweb='gh pr view --web'
 
+[[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty +kitten ssh"
 
 function bdd() {
   git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(refname:short)' | tac | tail
