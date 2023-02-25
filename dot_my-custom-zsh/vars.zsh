@@ -1,1 +1,1 @@
-export EDITOR='code -w'
+export EDITOR='code --wait --new-window'
