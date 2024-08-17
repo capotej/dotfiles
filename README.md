@@ -1,0 +1,6 @@
+# dotfiles
+
+## dependencies
+
+* zsh
+* git
