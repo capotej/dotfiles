@@ -1,6 +1,21 @@
 # dotfiles
 
-## dependencies
+These dotfiles are designed to be installed with chezmoi and used with ZSH.
 
-* zsh
-* git
+# Things to install
+
+## Zap
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+```
+
+## Others
+```sh
+brew install --cask ghostty
+brew install delta
+brew install starship
+brew install atuin
+brew install zoxide
+brew install --cask font-hack-nerd-font
+```
+
