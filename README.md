@@ -24,8 +24,20 @@ brew install --cask ghostty
 
 # Install Dotfiles
 
+## Clone and initialize repo with chezmoi
+
 ```sh
 chezmoi init https://github.com/capotej/dotfiles.git
+```
+
+## View changes
+```sh
+chezmoi diff
+```
+
+## Apply them
+```sh
+chezmoi apply -v
 ```
 
 # Load them ~/.zshrc
