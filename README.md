@@ -15,7 +15,6 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) 
 ```sh
 brew install chezmoi
 brew install delta
-brew install starship
 brew install atuin
 brew install zoxide
 brew install --cask font-hack-nerd-font

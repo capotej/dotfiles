@@ -14,6 +14,9 @@ plug "chivalryq/git-alias"
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "valentinocossar/vscode"
+plug "mafredri/zsh-async"
+plug "pinpox/jj-zsh-prompt"
+
 plug "$HOME/.aliases"
 
 eval "$(atuin init zsh)"
@@ -23,5 +26,4 @@ if command -v rbenv > /dev/null 2>&1; then
   eval "$(rbenv init - zsh)"
 fi
 
-eval "$(starship init zsh)"
 
