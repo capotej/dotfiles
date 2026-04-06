@@ -3,4 +3,3 @@ alias jsonpp='python -m json.tool'
 alias cm='chezmoi'
 alias vim='nvim'
 alias prweb='gh pr view --web'
-
