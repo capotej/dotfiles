@@ -16,6 +16,9 @@ plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "valentinocossar/vscode"
 plug "zsh-users/zsh-autosuggestions"
+plug "mafredri/zsh-async"
+plug "pinpox/jj-zsh-prompt"
+
 plug "$HOME/.aliases"
 
 eval "$(atuin init zsh)"
